@@ -1,0 +1,247 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+
+    .banner .inner-section {
+        padding: 70px 0px 60px;
+    }
+
+    .banner .inner-section h2 {
+        font-size: 80px;
+    }
+    .banner .inner-section .line {
+        width: 25%;
+        margin-top: -10px;
+    }
+    .banner .inner-section a {
+        margin: 5px 0 65px;
+       
+    }
+    .aboutdesign {
+      padding: 50px 0px;
+
+    }
+    .features-section {
+        padding: 50px 0px;
+    }
+    .features-section .inner-features .details h6 {
+        margin-top: -10px;
+        margin-bottom: 2px;
+    }
+    .workshow .inner-details h4 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .workshow .inner-details p {
+        margin-bottom: 40px;
+    }
+    .workshow .inner-workshow {
+        padding-left: 15px;
+    }
+    .form-section {
+        padding: 50px 0px;
+    }
+  
+    .form-section .inner-details h4 {
+        font-size: 30px;
+        line-height: 24px;
+    }
+    .form-section .main-form {
+      
+        padding: 0 20px;
+        margin-top: 25px;
+    }
+    .form-section .main-form .form-group .form-control {
+        padding: 2.5% 3%;
+       
+    }
+    .form-section .main-form .form-group .msg{
+        padding-bottom: 80px;
+    }
+    .form-section .main-form .form-group .cheak-box {
+        margin-top: 10px;
+    }
+    .form-section .main-form .form-group .cheak-box .details {
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .form-section .main-form .form-group .btn{
+        margin-left: 32%;
+    }
+    .form-section .main-form .form-group .btn a {
+        padding: 30% 110%;
+        
+    }
+    .footer-section .inner-footer p {
+        margin-top: 15px;
+        margin-bottom: -5px;
+    }
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    p{
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+    .navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+     }
+    .banner .inner-section {
+        padding: 70px 0px 60px;
+    }
+    .banner .inner-section h2 {
+        font-size: 65px;
+    }
+    .banner .inner-section .line {
+        width: 25%;
+        margin-top: -10px;
+    }
+    .banner .inner-section p {
+        margin: 15px 75px 20px;
+    }
+    .banner .inner-section a {
+        padding: 6px 12px;
+        border-radius: 4px;
+        margin: 18px 0 62px
+    }
+    .banner .inner-section .icons {
+        bottom: 50px;
+    }
+    .aboutdesign {
+        padding: 50px 0px;
+    }
+    
+    .aboutdesign .inner-design h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .features-section {
+        padding: 50px 0px 40px;
+    }
+   
+    .flip-card-inner .flip-card-front img, .flip-card-back img{
+        width: 30%;
+        height: 60%;
+      
+    }
+    .features-section .inner-features .details{
+        margin-top: -30px;
+    }
+    .features-section .inner-features .details h6 {
+        line-height: 25px;
+        margin-bottom: 1px;
+    }
+    .features-section .inner-features .details p {
+        padding: 0px 50px;
+    }
+    
+    .workshow .inner-details h4 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 6px;
+    }
+    .workshow .inner-details p {
+        margin-bottom: 40px;
+    }
+   
+    .workshow .inner-workshow .main-img {
+        padding: 0px 5px 0px 15px;
+    }
+    .form-section {
+        padding: 50px 0px;
+    }
+  
+    .form-section .inner-details h4 {
+        font-size: 30px;
+        line-height: 24px;
+    }
+    .form-section .main-form {
+      
+        padding: 0 20px;
+        margin-top: 25px;
+    }
+    .form-section .main-form .form-group .form-control {
+        padding: 2.5% 3%;
+       
+    }
+    .form-section .main-form .form-group .msg{
+        padding-bottom: 50px;
+    }
+    .form-section .main-form .form-group .cheak-box {
+        margin-top: 10px;
+    }
+    .form-section .main-form .form-group .btn{
+        margin-left: 20%;
+    }
+    .form-section .main-form .form-group .btn a {
+        padding: 20% 85%;
+        
+    }
+  
+    .footer-section .inner-footer p {
+        margin-top: 15px;
+        margin-bottom: -5px;
+    }
+    .footer-section .inner-footer ul {
+        padding-left: 16px;
+    }
+}

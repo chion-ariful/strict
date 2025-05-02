@@ -1,0 +1,412 @@
+/* Google dm sens & roboto font link up */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* ********************
+******** Global CSS   ******* 
+************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto", sans-serif;
+}
+ul li{
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+/* now start our normal project css */
+
+/* Header css start here */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbar{
+    width: 100%;
+    background: #f6f9f9;
+    padding: 25px 0;
+}
+
+.header-section .navbar .navbar-nav .nav-item .n-home {
+    font-size: 15px;
+    margin-left: 15px;
+    background-color: #15a4fa;
+    border: 1px solid #15a4fa;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+    transition: 0.8s;
+}
+
+.header-section .navbar .navbar-nav .nav-item .n-home:hover{
+    background-color: transparent;
+    color: #2d3950;
+    border: 1px solid #15a4fa;
+    transition: 0.8s;
+} 
+
+.header-section .navbar .navbar-nav .nav-item .n-others{
+    font-size: 15px;
+    margin-left: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2d3950;
+    transition: 0.8s;
+}
+
+.header-section .navbar .navbar-nav .nav-item .n-others:hover{
+    background-color: #15a4fa;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: 0.8s;
+}
+
+/* Header css end here */
+
+/* Banner section css start here */
+
+.banner{
+    width: 100%;
+    background: url(img/banner.png) center top no-repeat;
+    background-size: 100% 100%;
+}
+.banner .inner-section{
+    width: 100%;
+    text-align: center;
+    padding: 82px 0px 170px;
+    position: relative;
+}
+.banner .inner-section h2{
+    font-size: 103px;
+    line-height: 90px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.banner .inner-section .line{
+    width: 46%;
+    height: 2px;
+    margin: 25px auto;
+    background-color: #15a4fa;
+}
+
+.banner .inner-section p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    margin: 15px 0px 25px;
+}
+
+.banner .inner-section a {
+    padding: 10px 27px;
+    background-color: transparent;
+    border: 1px solid #15a4fa;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 3px;
+    margin: 28px 0 62px;
+    display: inline-block;
+    transition: 0.8s;
+    
+}
+
+.banner .inner-section a:hover{
+    background-color: #15a4fa;
+    border: 1px solid #15a4fa;
+    color: #fff;
+    
+}
+
+.banner .inner-section .icons {
+    position: absolute;
+    bottom: 58px;
+    width: 100%;
+}
+
+/* Banner section css end here */
+
+/* About design section css start here */
+
+.aboutdesign{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #f6f9f9;
+}
+.aboutdesign .inner-design{
+    width: 100%;
+    text-align: center;
+}
+
+
+.aboutdesign .inner-design h4{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 600;
+    color: #2d3950;
+    margin-bottom: 15px;
+}
+
+.aboutdesign .inner-design p{
+    width: 72%;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999999;
+    margin: 0 auto;
+}
+
+span:last-of-type {
+    animation: typedjsblink 0.7s infinite;
+  }
+  @keyframes type{
+    to { opacity: 1; }  /* this part for text willl have opacity or not */
+  }
+  
+/* About design section css end here */
+
+/* features section css start here */
+.features-section{
+    width: 100%;
+    padding: 80px 0px;
+
+}
+.features-section .inner-features{
+    text-align: center;
+}
+
+.features-section .inner-features .flip-card {
+    background-color: transparent;
+    width: 290px;
+    height: 120px;
+    margin: 0 auto;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  /* Style the back side */
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+  .features-section .inner-features .details h6{
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #2d3950;
+    margin-bottom: 10px;
+  }
+  .features-section .inner-features .details p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999999;
+    padding: 0px 22px;
+  }
+/* features section css end here */
+
+/* workshow section css start here */
+.workshow{
+    width: 100%;
+    padding: 50px 0px 80px;
+    background-color: #f6f9f9;
+}
+.workshow .inner-details{
+    text-align: center;
+    width: 100%;
+}
+.workshow .inner-details h4{
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #2d3950;
+    margin-bottom: 8px;
+}
+
+.workshow .inner-details p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 78px;
+}
+
+span:last-of-type {
+    animation: typedjsblink 0.7s infinite;
+  }
+  @keyframes type{
+    to { opacity: 1; }  /* this part for text willl have opacity or not */
+  }
+  .workshow .inner-workshow{
+    width: 100%;
+    position: relative;
+  }
+  .workshow .inner-workshow .main-img{
+    width: 97%;
+  }
+  .workshow .inner-workshow .hover-part{
+    height: 100%;
+    width: 97%;
+    background-color: #2cacf7;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    display: none;
+
+  }
+
+  .workshow .inner-workshow .icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-45px, -21px);
+  }
+  .workshow .inner-workshow:hover .hover-part{
+    display: block;
+  }
+/* workshow section css end here */
+
+/* form section css start here */
+.form-section{
+    width: 100%;
+    padding: 80px 0px 95px;
+    background: url(img/BG.png) center top no-repeat;
+    background-size: cover;
+
+}
+
+.form-section .inner-details{
+    width: 100%;
+    text-align: center;
+}
+
+.form-section .inner-details h4{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.form-section .inner-details p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999999;
+}
+span:last-of-type {
+    animation: typedjsblink 0.7s infinite;
+  }
+  @keyframes type{
+    to { opacity: 1; }  /* this part for text willl have opacity or not */
+  }
+.form-section .main-form{
+    width: 100%;
+    padding: 0 280px;
+    margin-top: 42px;
+}
+
+.form-section .main-form .form-group {
+    margin: 14px 0px 0px;
+}
+.form-section .main-form .form-group .form-control{
+    background-color: transparent;
+    padding: 15px 15px;
+    width: 100%;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 500;
+}
+.form-section .main-form .form-group .form-control:focus{
+    background-color: white;
+}
+.form-control::placeholder{
+    color: #999999 !important;
+    opacity: 0.5;
+}
+
+.form-section .main-form .form-group .msg {
+    padding: 15px 15px 97px;
+}
+.form-section .main-form .form-group .cheak-box{
+    margin-top: 22px;
+}
+.form-section .main-form .form-group .cheak-box .details{
+    color: white;
+    margin-left: 8px;
+}
+.form-section .main-form .form-group .btn a{
+    padding: 9px 43px;
+    background-color: transparent;
+    border: 1px solid #15a4fa;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 3px;
+    transition: 0.8s;
+    /* margin-left: 127px; */
+    margin-left: 106%;
+}
+.form-section .main-form .form-group .btn a:hover{
+    background-color: #15a4fa;
+    border-radius: 3px;
+    transition: 0.8s;
+
+}
+/* form section css end here */
+
+/* footer section css start here */
+.footer-section{
+    width: 100%;
+    padding: 15px 0px 11px;
+}
+.footer-section .inner-footer{
+    text-align: center;
+    margin-top: 21px;
+}
+.footer-section .inner-footer p{
+    width: 100%;
+    color: #999999;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.footer-section .inner-footer ul li{
+    display: inline-block;
+    list-style: none;
+}
+/* footer section css end here */
